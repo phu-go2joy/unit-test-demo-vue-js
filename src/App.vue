@@ -8,9 +8,9 @@
           @keyup.enter="check"
           v-model="guess"
         >
-        <button v-on:click="check">Check Answer</button>
+        <button @click="check">Check Answer</button>
       </div>
-      <button v-on:click="refresh">Refresh</button>
+      <button @click="refresh">Refresh</button>
       <p>{{message}}</p>
     </div>
   </div>
