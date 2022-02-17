@@ -1,5 +1,4 @@
-# alligator-test
-
+# unit-test-vuejs-with-jest
 ## Project setup
 ```
 npm install
